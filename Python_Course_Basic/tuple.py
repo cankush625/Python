@@ -1,0 +1,15 @@
+tpl=(20,40,50,"Ankush")
+print(tpl)
+a=(20,)
+print(a)
+print(type(a))
+print(tpl[3])
+print(a*3)
+print(tpl.count(40))
+print(tpl.index(50))
+
+lst=[20, 30, 40, 50, 60]
+print(type(lst))
+tpl1=tuple(lst)
+print(type(tpl1))
+print(tpl1)
